@@ -1,0 +1,40 @@
+
+
+#atividade de sobrescrita poo
+'''class Integrante_IFRN(object):
+    def __init__(self,nome):
+        self.nome=nome
+
+
+
+    def exibirMensagem(self):
+        print("Seja bem vindo(a) ao IFRN!!!")
+
+
+
+
+class Professor(Integrante_IFRN):
+    def __init__(self,nome,idade):
+        super().__init(nome)
+        self.idade=idade
+
+
+    def exibirMensagem(self):
+        print("Meus alunos são os melhores!!!")
+
+
+class Aluno(Integrante_IFRN):
+    def __init__(self,nome,idade,altura):
+        super().__init(nome)
+        self.idade=idade
+        self.altura=altura
+
+
+    def exibirMensagem(self):
+        print("Vou estudar para tirar 100 em poo!!!")'''
+
+        
+   
+
+
+
