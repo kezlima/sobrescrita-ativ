@@ -33,6 +33,69 @@ class Aluno(Integrante_IFRN):
     def exibirMensagem(self):
         print("Vou estudar para tirar 100 em poo!!!")'''
 
+
+
+
+
+'''class funcionario():
+
+    
+
+    def informação1():
+
+        a=input("digite seu nome:")
+
+    
+
+    def informação2():
+
+        b=int(input("digite sua idade:"))
+
+
+    def __init__(self,a,b):
+
+        self.nome=a
+
+        self.idade=b
+
+     
+
+
+
+    @property
+
+    def nome(self):
+
+        return self.__nome
+
+
+    @nome.setter
+
+    def nome(self,a):
+
+        self.__nome=a
+
+
+    @property
+
+    def idade (self):
+
+        return self.__idade
+
+
+    @idade.setter
+
+    def idade(self,b):
+
+     self.__idade=b
+
+
+pessoa=funcionario()
+
+print(pessoa.nome)'''
+
+
+
         
    
 
