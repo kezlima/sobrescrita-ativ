@@ -15,7 +15,7 @@
 
 class Professor(Integrante_IFRN):
     def __init__(self,nome,idade):
-        super().__init(nome)
+        super().__init__(nome)
         self.idade=idade
 
 
@@ -25,7 +25,7 @@ class Professor(Integrante_IFRN):
 
 class Aluno(Integrante_IFRN):
     def __init__(self,nome,idade,altura):
-        super().__init(nome)
+        super().__init__(nome)
         self.idade=idade
         self.altura=altura
 
