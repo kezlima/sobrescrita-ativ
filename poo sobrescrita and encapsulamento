@@ -35,68 +35,52 @@ class Aluno(Integrante_IFRN):
 
 
 
-
+#encapsulamento 
 
 '''class funcionario():
 
-    
-
-    def informação1():
-
-        a=input("digite seu nome:")
-
-    
-
-    def informação2():
-
-        b=int(input("digite sua idade:"))
 
 
-    def __init__(self,a,b):
+    
 
-        self.nome=a
+    def __init__(self,nome,idade):
 
-        self.idade=b
+        self._nome=nome
 
-     
-
-
-
-    @property
-
-    def nome(self):
-
-        return self.__nome
+        self._idade=idade
 
 
-    @nome.setter
+    @property
 
-    def nome(self,a):
+    def nome(self):
 
-        self.__nome=a
-
-
-    @property
-
-    def idade (self):
-
-        return self.__idade
+        return self._nome
 
 
-    @idade.setter
+    @nome.setter
 
-    def idade(self,b):
+    def nome(self,nome):
 
-     self.__idade=b
-
-
-pessoa=funcionario()
-
-print(pessoa.nome)'''
+        self._nome=nome
 
 
+    @property
 
-        
+    def idade (self):
+
+        return self.__idade
+
+
+    @idade.setter
+
+    def idade(self,idade):
+
+     self.__idade=idade
+
+
+pessoa=funcionario(input("nome:"), input("idade:"))
+print(pessoa._nome)
+print(pessoa._idade)'''
    
 
 
