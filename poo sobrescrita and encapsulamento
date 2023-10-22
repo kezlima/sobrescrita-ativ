@@ -102,6 +102,5 @@ while x<2:
     dados.write(a) 
 
     
-
 dados.close()'''
 
