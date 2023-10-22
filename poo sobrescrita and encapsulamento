@@ -83,5 +83,25 @@ print(pessoa._nome)
 print(pessoa._idade)'''
    
 
+#manutenção de arquivos 
 
+'''dados=open('gav.txt','a')
+
+dados.write('olá, tudo bom')
+
+x=0
+
+while x<2:
+
+    a=input("digte seu nome e idade:")
+
+    x=x+1
+
+    dados=open('gav.txt','a')
+
+    dados.write(a) 
+
+    
+
+dados.close()'''
 
