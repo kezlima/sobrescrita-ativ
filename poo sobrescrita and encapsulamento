@@ -100,10 +100,12 @@ while x<2:
 
     x=x+1
 
-    dados=open('gav.txt','a')
+    dados=open('gav.txt','w')
 
     dados.write(a) 
 
+dados=open('gav.txt','r')
+print(dados.read())
     
 dados.close()'''
 
