@@ -45,23 +45,23 @@ class Aluno(Integrante_IFRN):
 
     def __init__(self,nome,idade):
 
-        self._nome=nome
+        self.nome=nome
 
-        self._idade=idade
+        self.idade=idade
 
 
     @property
 
     def nome(self):
 
-        return self._nome
+        return self.nome
 
 
     @nome.setter
 
     def nome(self,nome):
 
-        self._nome=nome
+        self.nome=nome
 
 
     @property
@@ -78,9 +78,12 @@ class Aluno(Integrante_IFRN):
      self.__idade=idade
 
 
-pessoa=funcionario(input("nome:"), input("idade:"))
-print(pessoa._nome)
-print(pessoa._idade)'''
+pessoa=funcionario(input("nome:"), input(int("idade:")))
+print(pessoa.nome)
+print(pessoa.idade)
+funcionário.nome="Aline"
+funcionário.idade=34
+print(funcionário.nome,funcionário.idade)'''
    
 
 #manutenção de arquivos 
